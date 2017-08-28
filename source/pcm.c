@@ -1,5 +1,6 @@
 /*
- *  This extra small demo sends a random samples to your speakers.
+ *  This extra small demo play a raw file to your speakers.
+ *  Only support SND_PCM_FORMAT_U8-1CH-48000BR.
  */
 #include <alsa/asoundlib.h>
 static char *device = "default";                        /* playback device */
